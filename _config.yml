@@ -12,9 +12,10 @@ portfolio_url: "https://wyattx05.github.io/Portfolio/"
 #########################################################################################
 theme: "minima"
 
+header_pages:
+  - archive.md
+
 minima:
-  header_pages:
-    - archive.md
   social_links:
     - { title: "GitHub", icon: "github", url: "https://github.com/wyattx05" }
     - { title: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/wyatt-anderson609/" }
