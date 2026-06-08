@@ -18,6 +18,9 @@ social_links:
 #########################################################################################
 theme: "minima"
 
+minima:
+  subscribe_enabled: false
+
 kramdown:
   syntax_highlighter_opts:
     disable: true
