@@ -38,7 +38,7 @@
 
     button.setAttribute("aria-pressed", String(isDark));
     button.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
-    button.querySelector(".theme-toggle-text").textContent = isDark ? "Light" : "Dark";
+    button.setAttribute("title", isDark ? "Switch to light mode" : "Switch to dark mode");
   }
 
   setTheme(preferredTheme());
