@@ -8,7 +8,6 @@ email: "whanderson024@gmail.com"
 portfolio_url: "https://wyattx05.github.io/Portfolio/"
 github_username: "wyattx05"
 linkedin_username: "wyatt-anderson609"
-instagram_username: wyattx05
 youtube_username: techwyatt
 
 #########################################################################################
@@ -16,14 +15,11 @@ youtube_username: techwyatt
 #########################################################################################
 theme: "minima"
 
-rss: rss
-
 kramdown:
   syntax_highlighter_opts:
     disable: true
     
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
 
 titles_from_headings:
