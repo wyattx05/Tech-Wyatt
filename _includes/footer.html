@@ -9,16 +9,19 @@
           {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}
+          {%- if site.portfolio_url -%}
+            <li><a href="{{ site.portfolio_url }}" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+          {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <p>{{ site.description | escape }}</p>
+        <p class="footer-heading-small">Links</p>
+        {%- include social.html -%}
       </div>
 
       <div class="footer-col footer-col-3">
-        <p class="footer-heading-small">Links</p>
-        {%- include social.html -%}
+        <p>{{ site.description | escape }}</p>
       </div>
     </div>
   </div>

@@ -12,6 +12,42 @@ hr {
   font-weight: 600;
 }
 
+.site-footer .footer-col-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.site-footer .footer-col {
+  float: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.site-footer .footer-col-1,
+.site-footer .footer-col-2,
+.site-footer .footer-col-3 {
+  width: auto;
+}
+
+.site-footer .footer-col-1 {
+  flex: 1 1 30%;
+}
+
+.site-footer .footer-col-2 {
+  flex: 1 1 24%;
+}
+
+.site-footer .footer-col-3 {
+  flex: 1 1 36%;
+  text-align: right;
+}
+
+.site-footer .footer-col-3 p {
+  margin-left: auto;
+  max-width: 320px;
+}
+
 .personal-links {
   margin-left: 0;
 }
@@ -25,6 +61,24 @@ hr {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .site-footer .footer-col-wrapper {
+    display: block;
+  }
+
+  .site-footer .footer-col {
+    margin-bottom: 16px;
+  }
+
+  .site-footer .footer-col-3 {
+    text-align: left;
+  }
+
+  .site-footer .footer-col-3 p {
+    margin-left: 0;
+  }
 }
 
 /* Post navigation links */

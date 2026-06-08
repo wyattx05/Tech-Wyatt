@@ -5,6 +5,7 @@ url: "https://wyattx05.github.io"
 baseurl: "/Tech-Wyatt"
 
 email: "whanderson024@gmail.com"
+portfolio_url: "https://wyattx05.github.io/Portfolio/"
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
@@ -16,7 +17,6 @@ minima:
     - { title: "GitHub", icon: "github", url: "https://github.com/wyattx05" }
     - { title: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/wyatt-anderson609/" }
     - { title: "YouTube", icon: "youtube", url: "https://www.youtube.com/@techwyatt" }
-    - { title: "Portfolio", icon: "briefcase", url: "https://wyattx05.github.io/Portfolio/" }
 
 plugins:
   - jekyll-seo-tag
