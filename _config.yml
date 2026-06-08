@@ -5,10 +5,13 @@ description: "Tech enthusiast writing about what I find interesting in the world
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "whanderson024@gmail.com"
-portfolio_url: "https://wyattx05.github.io/Portfolio/"
 github_username: "wyattx05"
 linkedin_username: "wyatt-anderson609"
 youtube_username: techwyatt
+
+# Custom social links
+social_links:
+  - { label: "Portfolio", url: "https://wyattx05.github.io/Portfolio/" }
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
