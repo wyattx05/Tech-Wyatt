@@ -1,16 +1,10 @@
 title: "Tech-Wyatt"
 author: "Wyatt Anderson"
 description: "Tech enthusiast writing about what I find interesting in the world."
+url: "https://wyattx05.github.io"
+baseurl: "/Tech-Wyatt"
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
 email: "whanderson024@gmail.com"
-github_username: "wyattx05"
-linkedin_username: "wyatt-anderson609"
-youtube_username: "@techwyatt"
-
-# Portfolio link (separate from social media)
-portfolio_url: "https://wyattx05.github.io/Portfolio/"
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
@@ -18,23 +12,15 @@ portfolio_url: "https://wyattx05.github.io/Portfolio/"
 theme: "minima"
 
 minima:
-  subscribe_enabled: false
-  hide_site_feed_link: true
   social_links:
     - { title: "GitHub", icon: "github", url: "https://github.com/wyattx05" }
     - { title: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/wyatt-anderson609/" }
     - { title: "YouTube", icon: "youtube", url: "https://www.youtube.com/@techwyatt" }
+    - { title: "Portfolio", icon: "briefcase", url: "https://wyattx05.github.io/Portfolio/" }
 
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
-
-titles_from_headings:
-  strip_title: true
-  collections: true
 
 defaults:
   - scope:

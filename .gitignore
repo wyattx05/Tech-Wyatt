@@ -1,1 +1,3 @@
-﻿_site
+_site
+.bundle
+vendor/bundle

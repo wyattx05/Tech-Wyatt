@@ -3,6 +3,30 @@ hr {
   margin-bottom: 20px;
 }
 
+.intro {
+  margin-bottom: 32px;
+}
+
+.footer-heading-small {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.personal-links {
+  margin-left: 0;
+}
+
+.personal-links li {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.personal-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
