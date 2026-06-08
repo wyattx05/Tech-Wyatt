@@ -1,0 +1,7 @@
+# Welcome to my Blog
+
+I created this to share the millions of thoughts, ideas, and wonders that go though my head everyday. To give a little background on who I am, I am a college student at Virginia Commonwealth University studying Information Systems with a minor in Artificial Intelligence. I am from Northern Virginia, right outside of Washington, D.C. All of my life, I have enjoyed learning and helping people with their technology. It pains me to see people not use the tech they own to its full extent. My blog name comes from one of my most-used nicknames, since I have been almost everyone I knows local IT ever since I started using computers as a kid. 
+
+I was a Windows user my whole life, until college, when I switched to MacBooks for most of my daily work. I also started out as a die-hard Google Pixel fan back in 2017 when I got my first phone due to my love for Nexus, but have since switched to Apple due to its ecosystem. Also, before I switched to macOS, I used a Microsoft Surface Book, which has, hands down, been my favorite computer to ever use. Over the years, I have tried almost every major operating system and device as my daily driver, including many different Linux distros, verisons of Windows, and even ChromeOS. I have never been a fan of keeping things the same, and I always love to try something new when I get the chance. 
+
+Thank you for reading, please connect with me, I love to talk to people with similar passions to me and am always looking for ways to expand my network!
