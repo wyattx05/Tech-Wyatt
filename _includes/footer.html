@@ -9,15 +9,14 @@
           {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}
-          {%- if site.social_links -%}
-            {%- for link in site.social_links -%}
-              <li><a href="{{ link.url }}" title="{{ link.label }}">{{ link.label }}</a></li>
-            {%- endfor -%}
-          {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
+        <p>{{ site.description | escape }}</p>
+      </div>
+
+      <div class="footer-col footer-col-3">
         {%- include social.html -%}
       </div>
     </div>
