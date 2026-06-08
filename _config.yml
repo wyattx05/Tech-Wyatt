@@ -9,9 +9,8 @@ github_username: "wyattx05"
 linkedin_username: "wyatt-anderson609"
 youtube_username: "@techwyatt"
 
-# Custom social links
-social_links:
-  - { label: "Portfolio", url: "https://wyattx05.github.io/Portfolio/" }
+# Portfolio link (separate from social media)
+portfolio_url: "https://wyattx05.github.io/Portfolio/"
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
@@ -20,6 +19,11 @@ theme: "minima"
 
 minima:
   subscribe_enabled: false
+  hide_site_feed_link: true
+  social_links:
+    - { title: "GitHub", icon: "github", url: "https://github.com/wyattx05" }
+    - { title: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/wyatt-anderson609/" }
+    - { title: "YouTube", icon: "youtube", url: "https://www.youtube.com/@techwyatt" }
 
 kramdown:
   syntax_highlighter_opts:
