@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to my Blog"
 date: 2026-06-08
-tags: Other
+tags: Personal
 ---
 
 I created this to share the millions of thoughts, ideas, and wonders that go though my head everyday. To give a little background on who I am, I am a college student at Virginia Commonwealth University studying Information Systems with a minor in Artificial Intelligence. I am from Northern Virginia, right outside of Washington, D.C. All of my life, I have enjoyed learning and helping people with their technology. It pains me to see people not use the tech they own to its full extent. My blog name comes from one of my most-used nicknames, since I have been almost everyone I knows local IT ever since I started using computers as a kid. 
