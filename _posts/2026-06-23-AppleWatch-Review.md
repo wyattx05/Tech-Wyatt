@@ -5,7 +5,6 @@ date: 2026-06-08
 tags: Apple
 ---
 
-# First Month Apple Watch Experince
 
 About a month ago I bought an Apple Watch for the first time. I went to the Apple Store to look at the different watches and walked out with a series 11. For specifics I got the Jet Black GPS model with the blue sport loop band. 
 
