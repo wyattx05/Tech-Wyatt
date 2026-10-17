@@ -17,7 +17,17 @@
 
       <div class="footer-col footer-col-2">
         <p class="footer-heading-small">Links</p>
-        {%- include social.html -%}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+        <ul class="social-media-list personal-links">
+          {%- for entry in site.minima.social_links -%}
+            <li>
+              <a rel="me noopener noreferrer" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
+                <span class="grey fa-brands fa-{{ entry.icon }} fa-fw" aria-hidden="true"></span>
+                <span>{{ entry.title }}</span>
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
       </div>
 
       <div class="footer-col footer-col-3">
